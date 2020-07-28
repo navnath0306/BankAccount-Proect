@@ -8,8 +8,8 @@ import com.navnath.service.BankAccountServices;
 public class BankAccountServiceImplementation implements BankAccountServices{
 
 	@Override
-	public void testConnectivity() {
-		System.out.println("Success");
+	public String testConnectivity() {
+		return "Success";
 		
 	}
 
